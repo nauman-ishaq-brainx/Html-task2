@@ -1,0 +1,124 @@
+body {
+    margin: 5px;
+    margin-right: 12px;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('../images/light-blue-background-pastel-sky-260nw-163900193.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header img {
+    width: 100%;
+}
+
+.nav-links{
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home-heading, .course-heading {
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.course-heading {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.right-image {
+    width: 20%;
+}
+
+.left-image {
+    width: 20%;
+}
+
+.home-page-content {
+    width: 58%;
+}
+
+.course-page-content {
+    width: 79%;
+}
+
+.right-image img,
+.left-image img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    border: 5px solid black;
+    object-fit: cover;
+}
+.center p {
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+}
+.center h2{
+    margin-top : 10px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+footer img{
+    width: 100%;
+}
+
+
+.graphics {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.underlined-text {
+    text-decoration-line: underline;
+}
+
+.about-heading {
+    text-align: left;
+}
+
+.gallery-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+
+.gallery {
+    height: 200px;         
+    width: 17vw;         
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
